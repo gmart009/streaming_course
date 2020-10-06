@@ -23,10 +23,16 @@ python kafka_server.py
 /usr/bin/kafka-console-consumer --bootstrap-server localhost:9092 --topic police.department.calls --from-beginning
 ```
 
+![kafka-consumer-console.png]()
+
 5. Start Streaming App
 ```
 spark-submit --conf spark.ui.port=3000 --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local[*] data_stream.py
 ```
+
+![spark output.png]()
+
+![spark ui.png]()
 
 
 # Questions:
