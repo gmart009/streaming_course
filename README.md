@@ -30,9 +30,9 @@ python kafka_server.py
 spark-submit --conf spark.ui.port=3000 --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local[*] data_stream.py
 ```
 
-![Spark Output](spark output.png)
+![Spark Output]("spark output.png")
 
-![Spark UI](spark ui.png)
+![Spark UI]("spark ui.png")
 
 
 # Questions:
