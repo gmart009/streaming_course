@@ -32,7 +32,7 @@ spark-submit --conf spark.ui.port=3000 --packages org.apache.spark:spark-sql-kaf
 
 ![Spark Output](spark%20output.png)
 
-![Spark UI]("spark%20ui.png")
+![Spark UI](spark%20ui.png)
 
 
 # Questions:
