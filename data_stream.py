@@ -38,6 +38,7 @@ def run_spark_job(spark):
             .option('subscribe', 'police.department.calls')
             .option('maxOffsetsPerTrigger', 200)
             .option('stopGracefullyOnShutdown', "true")
+            .option('startingOffsets', 'earliest')
             .load())
     
     # Show schema for the incoming resources for checks
